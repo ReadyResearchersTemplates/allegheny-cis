@@ -1,0 +1,12 @@
+title: Allegheny-cis
+author: dluman
+version: 1.0.0
+quarto-required: ">=1.6.0"
+contributes:
+  formats:
+    pdf:
+      keep-tex: false
+      toc: true
+      template-partials:
+        - before-bib.tex
+      format-resources: journal-of-the-acm.cls

@@ -66,6 +66,9 @@ $endif$
 \usepackage[Export]{adjustbox}
 \adjustboxset{max size={\textwidth}{0.7\textheight}}
 
+\usepackage{etoolbox}
+\pretocmd{\subsection}{\clearpage}{}{}
+
 \normalem
 
 \setlength{\emergencystretch}{3em} % prevent overfull lines

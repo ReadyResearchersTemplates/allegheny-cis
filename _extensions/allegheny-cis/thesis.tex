@@ -136,7 +136,9 @@ $if(abstract)$
 \begin{abstract}
   $abstract$
 \end{abstract}
-$endif$
+$endif$		
+
+\newpage
 
 $if(toc)$
 \pagestyle{empty}
@@ -146,12 +148,15 @@ $endif$
 \setcounter{tocdepth}{$toc-depth$}
 \tableofcontents
 $endif$
+\newpage
 $if(lof)$
 \listoffigures
 $endif$
+\newpage
 $if(lot)$
 \listoftables
 $endif$
+\newpage
 $if(linestretch)$
 \setstretch{$linestretch$}
 $endif$

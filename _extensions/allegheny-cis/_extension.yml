@@ -10,6 +10,8 @@ contributes:
       cite-method: natbib
       fig-height: 6.5
       fig-width: 4.5
+      toc: true
+      number-sections: true
     html:
       number-sections: true
       toc: true

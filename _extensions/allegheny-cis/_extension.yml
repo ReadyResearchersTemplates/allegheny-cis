@@ -11,6 +11,8 @@ contributes:
       fig-height: 6.5
       fig-width: 4.5
       toc: true
+      lot: true
+      lof: true
       number-sections: true
     html:
       number-sections: true

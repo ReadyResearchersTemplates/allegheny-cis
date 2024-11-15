@@ -97,7 +97,7 @@ $endif$
 
 $if(natbib)$
 \usepackage[$natbiboptions$]{natbib}
-\bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
+%\bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
 $endif$
 $if(biblatex)$
 \usepackage[$if(biblio-style)$style=$biblio-style$,$endif$$for(biblatexoptions)$$biblatexoptions$$sep$,$endfor$]{biblatex}
@@ -165,5 +165,6 @@ $if(linestretch)$
 $endif$
 \pagestyle{plain}
 $body$
-
+\bibliographystyle{ACM-reference-format}
+\bibliography{$bibliography$}
 \end{document}

@@ -14,9 +14,11 @@ contributes:
       lot: true
       lof: true
       number-sections: true
+      code-overflow: wrap
     html:
       number-sections: true
       toc: true
       cite-method: natbib
       bibliography: references.bib
       cls: journal-of-the-acm.cls
+      code-overflow: wrap
